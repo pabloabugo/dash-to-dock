@@ -1,4 +1,25 @@
 # Dash to Dock
+
+> [!NOTE]
+> **About this fork.** This is a personal fork of [ubuntu/dash-to-dock](https://github.com/ubuntu/dash-to-dock).
+> The `pablo` branch is the latest upstream release published on extensions.gnome.org plus:
+>
+> - **Show pinned applications only on the primary monitor.** New option under
+>   *Launchers → Show pinned applications → Only on the primary monitor*
+>   (`show-favorites-only-on-primary`). With it, docks on other monitors list only running
+>   applications; combine it with *Isolate monitors* to show only the windows on each monitor.
+>   Proposed upstream in [ubuntu/dash-to-dock#2774](https://github.com/ubuntu/dash-to-dock/pull/2774)
+>   (requested in [#2487](https://github.com/ubuntu/dash-to-dock/issues/2487) and
+>   [#555](https://github.com/ubuntu/dash-to-dock/issues/555)).
+> - **Website links fixed** (the old micheleg.github.io address returns 404).
+>   Proposed upstream in [ubuntu/dash-to-dock#2773](https://github.com/ubuntu/dash-to-dock/pull/2773).
+> - **Own UUID `dash-to-dock@pablo`**, so automatic updates from extensions.gnome.org do not
+>   replace it. It uses the same settings schema, so install it *instead of* the original
+>   extension, not alongside it.
+>
+> Once the changes are merged upstream, they are dropped from this branch.
+> Branches meant for the pull requests contain only the corresponding commits on top of upstream.
+
 ![screenshot](https://github.com/micheleg/dash-to-dock/raw/master/media/screenshot.jpg)
 
 ## A dock for the GNOME Shell
